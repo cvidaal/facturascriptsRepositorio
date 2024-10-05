@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name="Nombre" order="100">
+            <widget type="text" fieldname="nombre"/>
+        </column>
+        <column name="DNI" order="110">
+            <widget type="text" fieldname="dni"/>
+        </column>
+        <column name="Fecha de nacimiento" order="120">
+            <widget type="date" fieldname="fechanacimiento"/>
+        </column>
+        <column name="Teléfono" order="130">
+            <widget type="text" fieldname="telefono"/>
+        </column>
+        <column name="Email" order="140">
+            <widget type="email" fieldname="email"/>
+        </column>
+    </columns>
+</view>
