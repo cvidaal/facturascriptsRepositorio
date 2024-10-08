@@ -99,6 +99,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditAsignatura": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditAsignatura",
+        "customId": "",
+        "position": 0
+    },
     "\/EditAtributo": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditAtributo",
         "customId": "",
@@ -234,6 +239,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditMatricula": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditMatricula",
+        "customId": "",
+        "position": 0
+    },
     "\/EditPageOption": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPageOption",
         "customId": "",
@@ -266,6 +276,11 @@
     },
     "\/EditProducto": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditProducto",
+        "customId": "",
+        "position": 0
+    },
+    "\/EditProfesor": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditProfesor",
         "customId": "",
         "position": 0
     },
@@ -389,6 +404,11 @@
         "customId": "",
         "position": 0
     },
+    "\/ListAsignatura": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListAsignatura",
+        "customId": "",
+        "position": 0
+    },
     "\/ListAtributo": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListAtributo",
         "customId": "",
@@ -484,13 +504,13 @@
         "customId": "",
         "position": 0
     },
-    "\/ListProveedor": {
-        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListProveedor",
+    "\/ListProfesor": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListProfesor",
         "customId": "",
         "position": 0
     },
-    "\/ListRecibo": {
-        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListRecibo",
+    "\/ListProveedor": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListProveedor",
         "customId": "",
         "position": 0
     },

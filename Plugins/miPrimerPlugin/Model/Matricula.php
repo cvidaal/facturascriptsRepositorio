@@ -5,28 +5,26 @@ namespace FacturaScripts\Plugins\miPrimerPlugin\Model;
 use FacturaScripts\Core\Model\Base\ModelClass;
 use FacturaScripts\Core\Model\Base\ModelTrait;
 
-class Recibo extends ModelClass
+class Matricula extends ModelClass
 {
     use ModelTrait;
 
-    public $idrecibo;
+    public $idmatricula;
     public $idalumno;
-    public $fecha;
-    public $fechadepago;
-    public $formadepago;
-    public $importe;
-    public $tipo;
+    public $idasignatura;
+    public $fechadealta;
+    public $fechadebaja;
+    public $cuota;
 
     public static function primaryColumn(): string
     {
-        return 'idrecibo';
+        return 'idmatricula';
     }
 
     public static function tableName(): string
     {
-        return 'recibos';
+        return 'matriculas';
     }
-
     public function url(string $type = 'auto', string $list = 'ListAlumno?activetab=List'): string
     {
         return parent::url($type, $list);

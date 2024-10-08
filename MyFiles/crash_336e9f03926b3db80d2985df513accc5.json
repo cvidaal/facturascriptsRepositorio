@@ -1,0 +1,15 @@
+{
+    "code": 0,
+    "message": "An exception has been thrown during the rendering of a template (&quot;Failed to write cache file &quot;\/MyFiles\/Cache\/Twig\/4a\/4a51458aa0e322d8d46562416679ef5e.php&quot;.&quot;).\n\nStack trace:\n#0 \\MyFiles\\Cache\\Twig\\a4\\a43ee70f23206510bec3d5732c93e01f.php(45): Twig\\Template-&gt;yield(Array, Array)\n#1 \\vendor\\twig\\twig\\src\\Template.php(360): __TwigTemplate_3da2e22d31f1ce7427ae940ce0ea6a75-&gt;doDisplay(Array, Array)\n#2 \\vendor\\twig\\twig\\src\\Template.php(335): Twig\\Template-&gt;yield(Array)\n#3 \\vendor\\twig\\twig\\src\\TemplateWrapper.php(38): Twig\\Template-&gt;render(Array)\n#4 \\vendor\\twig\\twig\\src\\Environment.php(307): Twig\\TemplateWrapper-&gt;render(Array)\n#5 \\Core\\Html.php(92): Twig\\Environment-&gt;render(&#39;Master\/ListCont...&#39;, Array)\n#6 \\Core\\Base\\Controller.php(314): FacturaScripts\\Core\\Html::render(&#39;Master\/ListCont...&#39;, Array)\n#7 \\Core\\Kernel.php(367): FacturaScripts\\Core\\Base\\Controller-&gt;run()\n#8 \\Core\\Kernel.php(186): FacturaScripts\\Core\\Kernel::runController(&#39;\/ListProfesor&#39;)\n#9 \\index.php(63): FacturaScripts\\Core\\Kernel::run(&#39;\/facturascripts...&#39;)\n#10 {main}",
+    "file": "\\Dinamic\\View\\Master\\MenuBghTemplate.html.twig",
+    "line": 21,
+    "fragment": " * You should have received a copy of the GNU Lesser General Public License\n16 * You should have received a copy of the GNU Lesser General Public License\n17 * along with this program. If not, see http:\/\/www.gnu.org\/licenses\/.\n18 *\/\n19#}\n20{% import 'Macro\/GoogleTagManager.html.twig' as GoogleTagManager %}\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">21{% extends \"Master\/MenuTemplate.html.twig\" %}<\/spam>\n22\n23{% block fullBody %}\n24    <body>\n25    {{ GoogleTagManager.body() }}\n26    {% block navbar %}",
+    "hash": "336e9f03926b3db80d2985df513accc5",
+    "url": "\/facturascripts\/ListProfesor",
+    "report_url": "https:\/\/facturascripts.com\/errores\/336e9f03926b3db80d2985df513accc5",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F336e9f03926b3db80d2985df513accc5",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "miPrimerPlugin"
+}

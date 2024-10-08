@@ -22,4 +22,9 @@
             <widget type="date" fieldname="fechadepago"/>
         </column>
     </columns>
+    <rows>
+        <row type="status">
+            <option color="danger" fieldname="fechadepago" title="No Pagado">null:</option>
+        </row>
+    </rows>
 </view>

@@ -1,0 +1,15 @@
+{
+    "code": 4,
+    "message": "syntax error, unexpected token &quot;public&quot;, expecting &quot;{&quot;",
+    "file": "\\Plugins\\miPrimerPlugin\\Controller\\ListAlumno.php",
+    "line": 9,
+    "fragment": "\r\n4\r\n5use FacturaScripts\\Core\\Lib\\ExtendedController\\ListController;\r\n6\r\n7class ListAlumno extends ListController\r\n8\r\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">9    public function getPageData(): array\r<\/spam>\n10    {\r\n11        $page = parent::getPageData();\r\n12        $page['title'] = 'Alumnos';\r\n13        $page['menu'] = 'Academia';\r\n14        $page['icon'] = 'fas fa-user-friends';\r",
+    "hash": "0415ec63774990d5f4a750cb6338f6de",
+    "url": "\/facturascripts\/AdminPlugins",
+    "report_url": "https:\/\/facturascripts.com\/errores\/0415ec63774990d5f4a750cb6338f6de",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F0415ec63774990d5f4a750cb6338f6de",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "miPrimerPlugin"
+}
