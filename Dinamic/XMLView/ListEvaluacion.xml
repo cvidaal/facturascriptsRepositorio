@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+    <columns>
+        <column name="Alumno" order="100" numcolumns="4">
+            <widget type="autocomplete" fieldname="idalumno" onclick="EditAlumno">
+                <values source="alumnos" fieldcode="idalumno" fieldtitle="nombre"/>
+            </widget>
+        </column>
+        <column name="Asignatura" order="110" numcolumns="4">
+            <widget type="autocomplete" fieldname="idasignatura" onclick="EditAsignatura">
+                <values source="asignaturas" fieldcode="idasignatura" fieldtitle="nombre"/>
+            </widget>
+        </column>
+        <column name="Profesor" order="120" numcolumns="4">
+            <widget type="autocomplete" fieldname="idprofesor" onclick="EditProfesor">
+                <values source="profesores" fieldcode="idprofesor" fieldtitle="nombre"/>
+            </widget>
+        </column>
+        <column name="Fecha" order="130">
+            <widget type="date" fieldname="fecha"/>
+        </column>
+        <column name="Nota" order="140">
+            <widget type="number" fieldname="nota"/>
+        </column>
+        <column name="Comportamiento" order="150">
+            <widget type="stars" fieldname="comportamiento"/>
+        </column>
+        <column name="Observaciones" order="160">
+            <widget type="textarea" fieldname="observaciones"/>
+        </column>
+    </columns>
+    <rows>
+        <row type="status">
+            <option color="danger" fieldname="nota" title="Suspenso">lt:5</option>
+        </row>
+    </rows>
+</views>

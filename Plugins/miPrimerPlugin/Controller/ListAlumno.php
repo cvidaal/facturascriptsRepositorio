@@ -20,6 +20,7 @@ class ListAlumno extends ListController
         $this->createAlumno();
         $this->createRecibo();
         $this->createMatricula();
+        $this->createEvaluacion();
     }
 
 
@@ -44,9 +45,16 @@ class ListAlumno extends ListController
     protected function createMatricula($viewName = "ListMatricula")
     {
         $this->addView($viewName, 'Matricula', 'Matriculas', 'fas fa-file-invoice-dollar');
+        $this->addFilterAutocomplete($viewName, 'idalumno', 'Alumno', 'idalumno', 'alumnos', 'idAlumno', 'nombre');
+        $this->addFilterAutocomplete($viewName, 'idAsignatura', 'Asignatura', 'idasignatura', 'asignaturas', 'idasignatura', 'nombre');
         $this->addOrderBy($viewName, ['cuota'], 'Cuota', 2);
         $this->addOrderBy($viewName, ['fechadealta'], 'Fecha de Alta', 2);
         $this->addOrderBy($viewName, ['fechadebaja'], 'Fecha de Baja', 2);
+    }
+
+    protected function createEvaluacion($viewName = "ListEvaluacion")
+    {
+        $this->addView($viewName, 'Evaluacion', 'Evaluaciones', 'fas fa-graduation-cap');
     }
 
     protected function loadData($viewName, $view)
@@ -56,6 +64,7 @@ class ListAlumno extends ListController
             case 'ListMatricula':
             case 'ListAlumno':
             case 'ListRecibo':
+            case 'ListEvaluacion':
                 $view->loadData();
                 break;
         }

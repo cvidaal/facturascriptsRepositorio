@@ -2,7 +2,7 @@
 <table>
     <column>
         <name>idalumno</name>
-        <type>serial</type>
+        <type>serial</type> 
         <null>NO</null>
     </column>
     <column>
