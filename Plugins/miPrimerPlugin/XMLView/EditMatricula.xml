@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <view>
     <columns>
-        <column name="Alumno" order="100" numcolumns="4">
+        <column name="Alumno" order="100" numcolumns="2">
             <widget type="autocomplete" fieldname="idalumno" onclick="EditAlumno">
                 <values source="alumnos" fieldcode="idalumno" fieldtitle="nombre"/>
             </widget>
         </column>
-        <column name="Asignatura" order="110" numcolumns="4">
+        <column name="Asignatura" order="110" numcolumns="2">
             <widget type="autocomplete" fieldname="idasignatura" onclick="EditAsignatura">
                 <values source="asignaturas" fieldcode="idasignatura" fieldtitle="nombre"/>
             </widget>

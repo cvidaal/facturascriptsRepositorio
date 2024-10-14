@@ -27,4 +27,9 @@ class Evaluacion extends ModelClass
     {
         return 'evaluaciones';
     }
+
+    public function url(string $type = 'auto', string $list = 'ListAlumno?activetab=List'): string
+    {
+        return parent::url($type, $list);
+    }
 }
