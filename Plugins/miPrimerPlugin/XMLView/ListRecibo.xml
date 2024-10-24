@@ -26,5 +26,8 @@
         <row type="status">
             <option color="danger" fieldname="fechadepago" title="No Pagado">null:</option>
         </row>
+        <row type="actions">
+            <button action="generar-recibos" color="warning" icon="fas fa-euro" label="Generar recibos" type="action"/>
+        </row>
     </rows>
 </view>

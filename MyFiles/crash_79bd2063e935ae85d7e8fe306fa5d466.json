@@ -1,0 +1,15 @@
+{
+    "code": 4,
+    "message": "syntax error, unexpected token &quot;}&quot;",
+    "file": "\\Plugins\\miPrimerPlugin\\Controller\\ListAlumno.php",
+    "line": 50,
+    "fragment": "            'icon' => 'fas fa-euro',\r\n45            'icon' => 'fas fa-euro',\r\n46            'color' => 'sucess',\r\n47            'type' => 'action',\r\n48        ])\r\n49\r\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">50    }\r<\/spam>\n51\r\n52    protected function createMatricula($viewName = \"ListMatricula\")\r\n53    {\r\n54        $this->addView($viewName, 'Matricula', 'Matriculas', 'fas fa-file-invoice-dollar');\r\n55        $this->addFilterAutocomplete($viewName, 'idalumno', 'Alumno', 'idalumno', 'alumnos', 'idAlumno', 'nombre');\r",
+    "hash": "79bd2063e935ae85d7e8fe306fa5d466",
+    "url": "\/facturascripts\/ListAlumno",
+    "report_url": "https:\/\/facturascripts.com\/errores\/79bd2063e935ae85d7e8fe306fa5d466",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F79bd2063e935ae85d7e8fe306fa5d466",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "miPrimerPlugin"
+}

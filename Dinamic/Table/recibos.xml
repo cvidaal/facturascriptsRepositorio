@@ -22,17 +22,14 @@
     <column>
         <name>importe</name>
         <type>double precision</type>
-        <null>NO</null>
     </column>
     <column>
         <name>formadepago</name>
         <type>character varying(50)</type>
-        <null>NO</null>
     </column>
     <column>
         <name>tipo</name>
         <type>character varying(30)</type>
-        <null>NO</null>
     </column>
     <constraint>
         <name>recibos_pkey</name>

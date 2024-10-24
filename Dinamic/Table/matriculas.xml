@@ -23,7 +23,6 @@
     <column>
         <name>fechadebaja</name>
         <type>date</type>
-        <null>NO</null>
     </column>
     <column>
         <name>cuota</name>
