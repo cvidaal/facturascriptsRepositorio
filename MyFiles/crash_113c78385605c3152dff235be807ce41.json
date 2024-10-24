@@ -1,0 +1,15 @@
+{
+    "code": 1,
+    "message": "Uncaught Error: Class &quot;FacturaScripts\\Dinamic\\Model\\User&quot; not found in \\Core\\Base\\Controller.php:364\n\nStack trace:\n#0 \\Core\\Base\\Controller.php(299): FacturaScripts\\Core\\Base\\Controller-&gt;auth()\n#1 \\Core\\Kernel.php(367): FacturaScripts\\Core\\Base\\Controller-&gt;run()\n#2 \\Core\\Kernel.php(186): FacturaScripts\\Core\\Kernel::runController(&#39;\/ListAsignatura&#39;)\n#3 \\index.php(63): FacturaScripts\\Core\\Kernel::run(&#39;\/facturascripts...&#39;)\n#4 {main}\n  thrown",
+    "file": "\\Core\\Base\\Controller.php",
+    "line": 364,
+    "fragment": "        $cookieNick = $this->request->cookies->get('fsNick', '');\n359        $cookieNick = $this->request->cookies->get('fsNick', '');\n360        if (empty($cookieNick)) {\n361            return false;\n362        }\n363\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">364        $user = new DinUser();<\/spam>\n365        if (false === $user->loadFromCode($cookieNick) && $user->enabled) {\n366            Tools::log()->warning('login-user-not-found', ['%nick%' => $cookieNick]);\n367            return false;\n368        }\n369",
+    "hash": "113c78385605c3152dff235be807ce41",
+    "url": "\/facturascripts\/ListAsignatura",
+    "report_url": "https:\/\/facturascripts.com\/errores\/113c78385605c3152dff235be807ce41",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F113c78385605c3152dff235be807ce41",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "miPrimerPlugin"
+}

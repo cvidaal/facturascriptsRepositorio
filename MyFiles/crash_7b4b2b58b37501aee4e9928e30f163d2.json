@@ -1,0 +1,15 @@
+{
+    "code": 4,
+    "message": "syntax error, unexpected token &quot;}&quot;",
+    "file": "\\Plugins\\miPrimerPlugin\\Controller\\EditMatricula.php",
+    "line": 22,
+    "fragment": "    {\r\n17    {\r\n18        if (parent::insertAction()) { \/\/ parent:: Se ejecuta el m\u00e9todo en la clase padre.\r\n19            \/\/ Si es true queremos que devuelva una plaza.\r\n20            $asignatura = new Asignatura(); \/\/ Creaci\u00f3n de objeto asignatura\r\n21            $asignatura\r\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">22        }\r<\/spam>\n23    }\r\n24}\r\n25",
+    "hash": "7b4b2b58b37501aee4e9928e30f163d2",
+    "url": "\/facturascripts\/EditMatricula",
+    "report_url": "https:\/\/facturascripts.com\/errores\/7b4b2b58b37501aee4e9928e30f163d2",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F7b4b2b58b37501aee4e9928e30f163d2",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "miPrimerPlugin"
+}

@@ -6,10 +6,10 @@
     "users",
     "alumnos",
     "pages_options",
-    "recibos",
     "pages_filters",
-    "divisas",
+    "recibos",
     "matriculas",
     "evaluaciones",
-    "formatos_documentos"
+    "divisas",
+    "asignaturas"
 ]

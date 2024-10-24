@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <view>
     <columns>
-        <column name="Profesor" order="100" numcolumns="2">
+        <column name="Profesor" order="100" numcolumns="1">
             <widget type="autocomplete" fieldname="idprofesor" onclick="EditProfesor">
                 <values source="profesores" fieldcode="idprofesor" fieldtitle="nombre"/>
             </widget>
@@ -12,8 +12,8 @@
         <column name="Material" order="110" display="left">
             <widget type="text" fieldname="material"/>
         </column>
-        <column name="Plazas" order="120" display="right">
-            <widget type="number" fieldname="plazas"/>
+        <column name="Plazas" order="120" display="left">
+            <widget type="integer" fieldname="plazas"/>
         </column>
     </columns>
 </view>
